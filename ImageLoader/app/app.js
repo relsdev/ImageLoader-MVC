@@ -24,7 +24,7 @@ app.controller('homeCtrl', function ($http) {
     $http.get('api/image').success(function (data) {
         for (var i=0; i<data.length; i++)
         {
-            vm.images.push({ url: data[i].Url, site: data[i].Domain });            
+            vm.images.push({ url: data[i].Url, site: data[i].Domain, id: data[i].Id });            
         }
     });
     

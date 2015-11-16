@@ -20,7 +20,6 @@ namespace ImageLoader.Data
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-
             modelBuilder.Conventions
             .Remove<PluralizingTableNameConvention>();
         }
