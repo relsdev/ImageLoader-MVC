@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLoader", "ImageLoader\ImageLoader.csproj", "{7B15605B-F711-4840-9A86-F5114B0D00AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLoader.Domain", "ImageLoader.Domain\ImageLoader.Domain.csproj", "{F2BB867A-0EC0-496B-829A-8411396030D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLoader.Data", "ImageLoader.Data\ImageLoader.Data.csproj", "{A9DEE2FC-000E-4A9C-8421-D5D2ACFF0CF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7B15605B-F711-4840-9A86-F5114B0D00AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B15605B-F711-4840-9A86-F5114B0D00AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B15605B-F711-4840-9A86-F5114B0D00AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BB867A-0EC0-496B-829A-8411396030D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BB867A-0EC0-496B-829A-8411396030D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BB867A-0EC0-496B-829A-8411396030D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BB867A-0EC0-496B-829A-8411396030D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9DEE2FC-000E-4A9C-8421-D5D2ACFF0CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9DEE2FC-000E-4A9C-8421-D5D2ACFF0CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9DEE2FC-000E-4A9C-8421-D5D2ACFF0CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9DEE2FC-000E-4A9C-8421-D5D2ACFF0CF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
